@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+ 
+body{
+    margin: 0 2%;
+}
+
+.nav{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    backdrop-filter: blur(1.5px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.logo__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #2400FF;
+    ;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2400FF;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #ffffff;
+    min-width: fit-content;
+
+}
+
+.button:hover{
+    transition: 300ms;
+    background-color: #2400FF;
+    bu
+}
+
+ .button__link{
+     color: black;
+ }
+ .button:hover .button__link{
+     color: #ffffff;
+ }
+
+.nav-button{
+    width: 25%; 
+    height: 50px;
+}
+
+.nav-item__text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+    transition: 150ms;
+}
+
+.nav-item__text:hover{
+    font-size: 22px;    
+    transition: 100ms;
+
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-image: url(../srs/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.header__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 10vh;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+.header__text{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 70px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 4px;
+
+}
+
+.header-button{
+    height: 60px;
+    border-radius: 30px;
+    padding: 0 20px;
+    min-width: fit-content;
+    width: 300px;
+    font-size: 24px;
+}
+
+.title{
+   text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px auto;
+
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.project-card{
+    display: flex;
+    border-radius: 30px;
+    width: 90%;
+    padding: 25px 20px;
+    margin-bottom: 30px;
+}
+
+.project-card-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+ 
+.card1{
+    background-image: url(../srs/images/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2{
+    background-image: url(../srs/images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card3{
+    background-image: url(../srs/images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-card-icon__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2400FF;
+
+}
+
+.project-card-text{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card-text__text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.calc-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    padding: 25px 20px;
+    margin-bottom: 30px;
+    height: 250px;
+}
+
+.calc-info__img{
+    margin-right: 20px;
+    height: 100%;
+}
+
+.calc-info-text{
+    display: flex;
+    align-items: center;
+    background-image: url(../srs/images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    flex-grow: 1;
+    border-radius: 30px;
+    padding: 30px 50px;
+    min-height: fit-content;
+}
+
+.calc-info-text__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.calc__img{
+    max-width: 80%;
+    margin-bottom: 50px;;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    background-color: #dddddd;
+
+}
+
+.contact-item{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    font-family: 'Roboto', serif;
+    font-size: 24px;
+}
+
+.contact-item__icon{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.contact-item__link{
+    color: grey;
+}
